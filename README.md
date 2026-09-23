@@ -1,22 +1,22 @@
-# vasanth
+# vasanth-love
 
 A small terminal experience.
 
 ```bash
-pip install vasanth
+pip install vasanth-love
 ```
 
 Then:
 
 ```bash
-vasanth
+vasanth-love
 ```
 
 That's the whole thing. It runs in the terminal, works offline, and takes a
 few minutes to read through.
 
-> If `vasanth` is already taken on PyPI when publishing, you can name the distribution
-> `vasanth-cli`. The command he actually types remains `vasanth`.
+> If `vasanth-love` is already taken on PyPI when publishing, you can name the distribution
+> `vasanth-love-cli`. The command he actually types remains `vasanth-love` (`vasanth` also works).
 
 ---
 
@@ -27,7 +27,7 @@ sequence, a menu, a few scenes to wander through, and one question at the end.
 There is also a way to write a message back.
 
 It is a standard console application. It installs like any other package,
-runs like any other command, and uninstalls with `pip uninstall vasanth`.
+runs like any other command, and uninstalls with `pip uninstall vasanth-love`.
 
 ## Requirements
 
@@ -41,11 +41,11 @@ is instant and there is nothing to audit.
 ## Usage
 
 ```bash
-vasanth                 # the full experience
+vasanth-love                 # the full experience
 python -m vasanth       # identical, if the command isn't on PATH
-vasanth --skip-intro    # straight to the menu
-vasanth --fast          # no animation delays
-vasanth --version
+vasanth-love --skip-intro    # straight to the menu
+vasanth-love --fast          # no animation delays
+vasanth-love --version
 ```
 
 Environment knobs:
@@ -140,9 +140,9 @@ vasanth --fast      # read it end to end in a few seconds
 
 ```bash
 git clone <your-repo-url>
-cd vasanth
+cd Vasanth_project
 pip install -e ".[dev]"
-vasanth
+vasanth-love
 ```
 
 Run the tests:
@@ -157,7 +157,7 @@ Build a distribution:
 ```bash
 pip install build
 python -m build           # writes dist/*.whl and dist/*.tar.gz
-pip install dist/vasanth-1.0.0-py3-none-any.whl
+pip install dist/vasanth_love-1.0.0-py3-none-any.whl
 ```
 
 Publish:
@@ -206,7 +206,7 @@ uvicorn app.main:app --reload
 Then point the CLI at it while testing:
 
 ```bash
-VASANTH_ENDPOINT=http://127.0.0.1:8000/api/message vasanth
+VASANTH_ENDPOINT=http://127.0.0.1:8000/api/message vasanth-love
 ```
 
 Before publishing, set the deployed URL in `src/vasanth/api.py`:
@@ -227,7 +227,7 @@ of the configuration, never the values.
 * No telemetry, no analytics, no tracking, no identifiers.
 * Nothing is written to disk. No config file, no history, no cache.
 * No network access at all unless he chooses to send a message and confirms.
-* Uninstalling removes everything: `pip uninstall vasanth`.
+* Uninstalling removes everything: `pip uninstall vasanth-love`.
 
 ## License
 
