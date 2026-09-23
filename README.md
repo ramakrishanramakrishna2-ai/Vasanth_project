@@ -159,7 +159,7 @@ Build a distribution:
 ```bash
 pip install build
 python -m build           # writes dist/*.whl and dist/*.tar.gz
-pip install dist/vasanth_love-1.0.0-py3-none-any.whl
+pip install dist/vasanth_love-2.0.0-py3-none-any.whl
 ```
 
 Publish:
