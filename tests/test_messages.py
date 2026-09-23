@@ -77,10 +77,10 @@ def test_menu_keys_are_unique_and_handlers_exist():
         assert handler == "exit" or handler in cli.SCENES
 
 
-def test_menu_has_an_exit_and_a_send_option():
+def test_menu_has_an_exit_option_and_no_send_option():
     handlers = [h for _, _, h in M.MENU_ITEMS]
     assert "exit" in handlers
-    assert "send" in handlers
+    assert "send" not in handlers
 
 
 def test_secret_triggers_do_not_collide_with_menu_keys():

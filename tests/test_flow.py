@@ -64,28 +64,28 @@ def test_boot_reveals_the_name(monkeypatch, capsys):
 
 
 def test_menu_lists_every_option_and_exits(monkeypatch, capsys):
-    drive(monkeypatch, ["9"])
+    drive(monkeypatch, ["8"])
     no_network(monkeypatch)
     cli.main_menu()
     out = capsys.readouterr().out
     for key, label, _ in M.MENU_ITEMS:
         assert "[%s]" % key in out
         assert M.fmt(label) in out
-    assert "Connection closed." in out
+    assert M.EXIT_FINAL[0] in out
 
 
 def test_invalid_input_is_refused_then_recovers(monkeypatch, capsys):
-    drive(monkeypatch, ["banana", "42", "9"])
+    drive(monkeypatch, ["banana", "42", "8"])
     no_network(monkeypatch)
     cli.main_menu()
     out = capsys.readouterr().out
     assert out.count(M.INVALID_CHOICE) == 2
-    assert "Connection closed." in out
+    assert M.EXIT_FINAL[0] in out
 
 
 def test_bare_enter_at_the_menu_is_not_scolded(monkeypatch, capsys):
     """Pressing Enter to look again should not read as a telling-off."""
-    drive(monkeypatch, ["", "  ", "9"])
+    drive(monkeypatch, ["", "  ", "8"])
     no_network(monkeypatch)
     cli.main_menu()
     assert M.INVALID_CHOICE not in capsys.readouterr().out
@@ -93,12 +93,12 @@ def test_bare_enter_at_the_menu_is_not_scolded(monkeypatch, capsys):
 
 def test_bom_and_carriage_returns_are_tolerated(monkeypatch, capsys):
     """PowerShell prefixes piped input with a BOM; it must not break choices."""
-    drive(monkeypatch, ["\ufeff9"])
+    drive(monkeypatch, ["\ufeff8"])
     no_network(monkeypatch)
     cli.main_menu()
     out = capsys.readouterr().out
     assert M.INVALID_CHOICE not in out
-    assert "Connection closed." in out
+    assert M.EXIT_FINAL[0] in out
 
 
 def test_eof_exits_gracefully(monkeypatch):
@@ -184,7 +184,7 @@ def test_secret_scene(monkeypatch, capsys):
 
 @pytest.mark.parametrize("trigger", M.SECRET_TRIGGERS)
 def test_secret_trigger_from_the_menu(monkeypatch, capsys, trigger):
-    drive(monkeypatch, [trigger, "", "9"])
+    drive(monkeypatch, [trigger, "", "8"])
     no_network(monkeypatch)
     cli.main_menu()
     assert M.SECRET_TITLE in capsys.readouterr().out

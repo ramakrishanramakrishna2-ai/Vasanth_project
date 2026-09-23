@@ -23,10 +23,10 @@ Formatting notes:
 NAME = "Vasanth"
 
 #: Subtitle under the main banner.
-TAGLINE = "A little secret for you"
+TAGLINE = "Happy anniversary, my love"
 
 #: The small line that sits beneath the banner.
-SIGNATURE_LINE = "made with a lot of thought."
+SIGNATURE_LINE = "for us, on our anniversary."
 
 
 # ---------------------------------------------------------------------------
@@ -34,21 +34,21 @@ SIGNATURE_LINE = "made with a lot of thought."
 # ---------------------------------------------------------------------------
 
 BOOT_LINES = [
-    "Initializing...",
+    "Initializing anniversary mode...",
     "",
-    "Loading something important...",
+    "Loading our story...",
 ]
 
 BOOT_CHECKS = [
-    "Checking...",
-    "Checking...",
-    "Checking...",
+    "Checking laughter shared...",
+    "Checking dreams built together...",
+    "Checking love still growing...",
 ]
 
 BOOT_PROMPT = [
     "One final thing...",
     "",
-    "Who is this program for?",
+    "Who is my anniversary star?",
 ]
 
 BOOT_CONFIRMATION = [
@@ -58,8 +58,8 @@ BOOT_CONFIRMATION = [
     "",
     "This isn't really a program.",
     "",
-    "It's a message...",
-    "that happens to have an executable file.",
+    "It's our anniversary gift...",
+    "wrapped in code, just for you.",
 ]
 
 
@@ -68,13 +68,13 @@ BOOT_CONFIRMATION = [
 # ---------------------------------------------------------------------------
 
 INTRO_LINES = [
-    "I could have just sent you a message.",
+    "Another year with you, {name}.",
     "",
-    "But where's the fun in that?",
+    "A card felt too small for this.",
     "",
-    "So...",
+    "So I wrote you a little world instead.",
     "",
-    "I turned my feelings into a Python package.",
+    "Happy anniversary.",
 ]
 
 
@@ -82,31 +82,28 @@ INTRO_LINES = [
 # 4. OPTION 1 -- OPEN MY MESSAGE
 # ---------------------------------------------------------------------------
 
-MESSAGE_OPENING = "Opening something I've been wanting to say..."
+MESSAGE_OPENING = "Opening my anniversary letter for you..."
 
 MAIN_MESSAGE = [
     "{name},",
     "",
-    "There are things that are difficult to",
-    "say normally.",
+    "Look how far we have come together.",
     "",
-    "So I made a program instead.",
+    "Through ordinary days and big dreams,",
+    "you stayed my favourite person.",
     "",
-    "You are not just another person in my life.",
+    "Thank you for your patience,",
+    "your laughter, and your love.",
     "",
-    "Somehow...",
+    "Every year with you feels like",
+    "a gift I never want to return.",
     "",
-    "you became someone I look forward to,",
-    "someone I think about,",
-    "and someone whose presence means",
-    "more to me than I probably say.",
+    "Happy anniversary, my love.",
     "",
-    "And if this little program made you smile...",
-    "",
-    "then it did exactly what I wanted it to do.",
+    "Here is to every year still to come.",
 ]
 
-MESSAGE_CLOSING = "For you, {name}."
+MESSAGE_CLOSING = "Forever yours, on our anniversary."
 
 
 # ---------------------------------------------------------------------------
@@ -115,48 +112,48 @@ MESSAGE_CLOSING = "For you, {name}."
 #     numbered automatically.
 # ---------------------------------------------------------------------------
 
-REASONS_LOADING = "Loading reasons..."
+REASONS_LOADING = "Loading anniversary reasons..."
 
 REASONS = [
-    ["Because talking to you never feels ordinary."],
+    ["Because every year with you feels better."],
     [
-        "Because somehow, you make normal days",
-        "feel a little more special.",
+        "Because you turned ordinary days",
+        "into our favourite memories.",
     ],
     [
-        "Because you listen properly.",
-        "Not politely. Properly.",
+        "Because you stood by me",
+        "in easy times and hard ones.",
     ],
     [
-        "Because you have opinions,",
-        "and you are not shy about them.",
+        "Because your love made our home",
+        "warmer than any place.",
     ],
     [
-        "Because your laugh arrives before",
-        "the joke is finished.",
+        "Because your laugh still fixes",
+        "my longest days.",
     ],
     [
-        "Because you are kind in the quiet way",
-        "that nobody applauds.",
+        "Because you believe in us,",
+        "even when I forget to say thanks.",
     ],
     [
-        "Because you make me want to be",
-        "slightly less of a disaster.",
+        "Because growing older with you",
+        "feels like an adventure.",
     ],
     [
-        "Because silence with you is comfortable,",
-        "and that is rarer than it sounds.",
+        "Because our little inside jokes",
+        "are my favourite language.",
     ],
     [
-        "Because you remember small things",
-        "that other people let fall.",
+        "Because you love me as I am,",
+        "and inspire who I become.",
     ],
     [
         "Honestly...",
         "",
-        "I could keep adding reasons.",
+        "One more year, one more reason.",
         "",
-        "But then this terminal would never finish.",
+        "Happy anniversary, {name}.",
     ],
 ]
 
@@ -166,12 +163,12 @@ REASONS = [
 # ---------------------------------------------------------------------------
 
 LOVE_EXE_STEPS = [
-    "Scanning heart...",
-    "Checking feelings...",
-    "Calculating attachment...",
+    "Scanning our years together...",
+    "Checking anniversary memories...",
+    "Calculating love grown...",
 ]
 
-LOVE_EXE_FAILING_STEP = "Checking ability to stop thinking about {name}..."
+LOVE_EXE_FAILING_STEP = "Checking ability to stop loving {name}..."
 
 LOVE_EXE_ERROR = [
     "ERROR.",
@@ -196,7 +193,7 @@ LOVE_EXE_DIAGNOSTICS = [
 LOVE_EXE_STATUS = "RUNNING"
 
 LOVE_EXE_FOOTER = [
-    "Uninstall is not available on this system.",
+    "This love has no expiry date.",
 ]
 
 
@@ -205,21 +202,20 @@ LOVE_EXE_FOOTER = [
 #     Placeholders on purpose. Replace with your own.
 # ---------------------------------------------------------------------------
 
-MEMORY_INTRO = "Loading memories..."
+MEMORY_INTRO = "Loading our anniversary memories..."
 
 MEMORIES = [
-    "That conversation I still remember.",
-    "That day we laughed for no reason.",
-    "That moment I realized you were different.",
-    "That random little thing you probably forgot.",
+    "Our first anniversary we celebrated.",
+    "That trip we still talk about.",
+    "That festival we enjoyed together.",
+    "That quiet dinner that felt perfect.",
 ]
 
 MEMORY_CLOSING = [
-    "Some of these you remember.",
+    "So many years, so many smiles.",
     "",
-    "Some of these only I do.",
-    "",
-    "Both are fine.",
+    "And my favourite memory",
+    "is still being made with you.",
 ]
 
 
@@ -366,24 +362,24 @@ RANDOM_THOUGHTS = [
 QUESTION_WARNING = [
     "Warning.",
     "",
-    "This section contains one question.",
+    "This section holds one anniversary wish.",
     "",
-    "Are you sure you want to continue?",
+    "Are you ready, {name}?",
 ]
 
-QUESTION_PREPARING = "Preparing question..."
+QUESTION_PREPARING = "Preparing anniversary wish..."
 
 QUESTION_HEADER = [
-    "There is something I want",
-    "to ask you.",
+    "On our anniversary,",
+    "I want to ask you this.",
 ]
 
 #: The question itself. Change this to whatever you actually want to ask.
 QUESTION = [
-    "Would you like to be",
-    "a little more than",
-    "just a beautiful part",
-    "of my life?",
+    "Will you keep holding my hand,",
+    "through every year to come,",
+    "my love, my home,",
+    "my always?",
 ]
 
 QUESTION_OPTIONS = [
@@ -396,37 +392,35 @@ QUESTION_OPTIONS = [
 ANSWER_YES = [
     "...",
     "",
-    "Okay.",
+    "You just made our anniversary",
+    "even more special.",
     "",
-    "You just made someone",
-    "very, very happy.",
-    "",
-    "No rush on anything else.",
-    "Today is enough.",
+    "Thank you for every year so far.",
+    "Here is to all the ones ahead.",
 ]
 
 ANSWER_MAYBE = [
-    "That's okay.",
+    "That's okay, my love.",
     "",
-    "Some answers deserve time.",
+    "Anniversaries are for remembering,",
     "",
-    "I'll happily wait.",
+    "not for rushing answers.",
 ]
 
 ANSWER_TIME = [
     "Take all the time you need.",
     "",
-    "No pressure.",
+    "My love is patient.",
     "",
-    "Some things are worth thinking about.",
+    "Today we simply celebrate us.",
 ]
 
 ANSWER_BACK = [
     "Of course.",
     "",
-    "The question isn't going anywhere.",
+    "This wish stays open.",
     "",
-    "Neither am I.",
+    "Just like my heart, always.",
 ]
 
 
@@ -515,26 +509,25 @@ SEND_TOO_LONG = [
 # 11. SECRET  (menu option, or type 143 / the name at the menu)
 # ---------------------------------------------------------------------------
 
-SECRET_TITLE = "SECRET MESSAGE UNLOCKED"
+SECRET_TITLE = "HAPPY ANNIVERSARY SECRET"
 
 SECRET_MESSAGE = [
-    "You found the secret.",
+    "You found our anniversary secret.",
     "",
     "But honestly...",
     "",
-    "there was never really a secret.",
+    "you already knew it.",
     "",
-    "The whole program was made",
-    "because of you.",
+    "Every year, every smile,",
+    "every memory...",
     "",
-    "Every screen.",
-    "Every message.",
-    "Every little animation.",
+    "was always leading back",
+    "to you, {name}.",
     "",
-    "You.",
+    "You are my celebration.",
 ]
 
-SECRET_CLOSING = "You are loved."
+SECRET_CLOSING = "Happy anniversary, my love."
 
 #: Typing any of these at the main menu opens the secret.
 SECRET_TRIGGERS = ["143", "vasanth", "secret", "love"]
@@ -545,27 +538,27 @@ SECRET_TRIGGERS = ["143", "vasanth", "secret", "love"]
 # ---------------------------------------------------------------------------
 
 EXIT_STEPS = [
-    "Closing {name}.exe...",
-    "Saving memories...",
+    "Closing anniversary.exe...",
+    "Saving our memories...",
 ]
 
 EXIT_MESSAGE = [
     "Before you go...",
     "",
-    "Remember:",
+    "Remember this always:",
     "",
-    "Someone spent time making this",
-    "just to see you smile.",
+    "You are loved more each year,",
+    "and celebrated today most of all.",
     "",
-    "Goodnight, {name}.",
+    "Happy anniversary, {name}.",
     "",
-    "Until next time...",
+    "Until our next year together...",
 ]
 
 EXIT_FINAL = [
-    "Connection closed.",
+    "Anniversary closed.",
     "",
-    "But the feeling isn't.",
+    "But our love story continues.",
 ]
 
 
@@ -575,18 +568,17 @@ EXIT_FINAL = [
 #     handler names are wired up in cli.py.
 # ---------------------------------------------------------------------------
 
-MENU_TITLE = "SELECT AN OPTION"
+MENU_TITLE = "OUR ANNIVERSARY MENU"
 
 MENU_ITEMS = [
-    ("1", "Open My Message", "message"),
-    ("2", "Why {name}?", "reasons"),
+    ("1", "Our Anniversary Letter", "message"),
+    ("2", "Why {name}, Always", "reasons"),
     ("3", "Love.exe", "love_exe"),
-    ("4", "Memory Lane", "memories"),
-    ("5", "Random Love", "random_love"),
-    ("6", "The Question", "question"),
-    ("7", "Send Me a Message", "send"),
-    ("8", "Secret", "secret"),
-    ("9", "Exit", "exit"),
+    ("4", "Our Memory Lane", "memories"),
+    ("5", "Sweet Anniversary Notes", "random_love"),
+    ("6", "My Anniversary Wish", "question"),
+    ("7", "Secret", "secret"),
+    ("8", "Exit", "exit"),
 ]
 
 MENU_HINT = "Choose a number, then press Enter."

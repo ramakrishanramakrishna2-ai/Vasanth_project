@@ -1,6 +1,6 @@
 # vasanth-love
 
-A small terminal experience.
+A small terminal anniversary gift.
 
 ```bash
 pip install vasanth-love
@@ -24,9 +24,9 @@ few minutes to read through.
 
 ## What it is
 
-A Python package that opens a quiet, animated letter in the terminal: a boot
-sequence, a menu, a few scenes to wander through, and one question at the end.
-There is also a way to write a message back.
+A Python package that opens a quiet, animated anniversary letter
+in the terminal: a boot sequence, a menu of love scenes to
+wander through, and one anniversary wish at the end.
 
 It is a standard console application. It installs like any other package,
 runs like any other command, and uninstalls with `pip uninstall vasanth-love`.
@@ -171,9 +171,10 @@ twine upload dist/*
 
 ---
 
-## The message feature
+## The message feature (hidden in this edition)
 
-Option 7 lets him write a message and send it to you by email.
+The anniversary menu has no message-back option. The code is still
+in the package and backend, but it is not shown in the menu.
 
 The important constraint: **this package is public, so it contains no
 credentials.** It knows one public HTTPS URL and nothing else. The email
