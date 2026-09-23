@@ -9,8 +9,10 @@ pip install vasanth-love
 Then:
 
 ```bash
-vasanth-love
+vasanth
 ```
+
+(`vasanth-love` works too — same thing.)
 
 That's the whole thing. It runs in the terminal, works offline, and takes a
 few minutes to read through.
@@ -41,11 +43,11 @@ is instant and there is nothing to audit.
 ## Usage
 
 ```bash
-vasanth-love                 # the full experience
+vasanth                 # the full experience (vasanth-love works too)
 python -m vasanth       # identical, if the command isn't on PATH
-vasanth-love --skip-intro    # straight to the menu
-vasanth-love --fast          # no animation delays
-vasanth-love --version
+vasanth --skip-intro    # straight to the menu
+vasanth --fast          # no animation delays
+vasanth --version
 ```
 
 Environment knobs:
